@@ -1,0 +1,10 @@
+.
+
+Se o endereço de uma variável valor foi atribuído a um ponteiro valorPtr, quais alternativas
+são verdadeiras? Justifique sua resposta.
+a) valor = = &valorPtr
+b) valor = = *valorPtr
+c) valorPtr = = &valor
+d) valorPtr = = *valor
+
+a)  falso por que 'valor' seria o valor de 'valor', e &valorPtr seria um endereço de memória. b) verdadeiro, comparação de valores (no caso, a comparação é com o próprio valor de 'valor', já que *valorPtr é o valor do ponteiro apontado para 'valor'), c) verdadeiro pois valorPtr já é o endereço de memoria de 'valor' (ou seja = &valor) d) errado também pois para atribuir um endereço de memória a uma variável, este enderço é obtido usando o operador & (ADDRESS OF) em C, e *valor não retorna um endereço de memória, sendo inclusive inválido, já que a variável 'valor' não é um ponteiro.

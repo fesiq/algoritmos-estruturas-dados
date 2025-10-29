@@ -1,0 +1,5 @@
+Questão 2: Explique cada uma das expressões a seguir, indicando a diferença entre elas:
+p++; (*p)++; *(p++);
+Qual informação se refere a expressão *(p+10)?
+
+Sendo p um ponteiro, p++; indica um endereço de memória incrementado em 1, endereço adiante do seu endereço. (*p)++ indica o valor armazenado no endereço indicado por p, e depois incrementa. já *(p++) obtém o valor do endereço p e depois incrementa, movimentando o ponteiro p para que aponte para a próxima posição de memória. Por fim, *(p+10) pega o valor armazenado no endereço que está 10 endereços adiante de p (algo como buscar em um vetor "p" na posição 10, ou seja, o 11º item).
